@@ -1,0 +1,24 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    
+}
+
+.box{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    /* this is transition short hand  */
+    transition: transform 1s ease 20ms;
+}
+
+.box:hover{
+    transform: translateX(50px) translateY(50px) scale(2);
+}
